@@ -1,0 +1,30 @@
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\bin\Debug\net6.0\BMI Calulator.exe
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\bin\Debug\net6.0\BMI Calulator.deps.json
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\bin\Debug\net6.0\BMI Calulator.runtimeconfig.json
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\bin\Debug\net6.0\BMI Calulator.dll
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\bin\Debug\net6.0\BMI Calulator.pdb
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\BMI Calulator.csproj.AssemblyReference.cache
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\BMI Calulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\BMI Calulator.AssemblyInfoInputs.cache
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\BMI Calulator.AssemblyInfo.cs
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\BMI Calulator.csproj.CoreCompileInputs.cache
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\BMI Calulator.dll
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\refint\BMI Calulator.dll
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\BMI Calulator.pdb
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\BMI Calulator.genruntimeconfig.cache
+C:\Users\berry\Desktop\Repo\C#\BMI Calulator\obj\Debug\net6.0\ref\BMI Calulator.dll
+C:\Users\berry\Desktop\Repo\C#\SD1_App\bin\Debug\net6.0\BMI Calulator.exe
+C:\Users\berry\Desktop\Repo\C#\SD1_App\bin\Debug\net6.0\BMI Calulator.deps.json
+C:\Users\berry\Desktop\Repo\C#\SD1_App\bin\Debug\net6.0\BMI Calulator.runtimeconfig.json
+C:\Users\berry\Desktop\Repo\C#\SD1_App\bin\Debug\net6.0\BMI Calulator.dll
+C:\Users\berry\Desktop\Repo\C#\SD1_App\bin\Debug\net6.0\BMI Calulator.pdb
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\BMI Calulator.csproj.AssemblyReference.cache
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\BMI Calulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\BMI Calulator.AssemblyInfoInputs.cache
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\BMI Calulator.AssemblyInfo.cs
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\BMI Calulator.csproj.CoreCompileInputs.cache
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\BMI Calulator.dll
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\refint\BMI Calulator.dll
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\BMI Calulator.pdb
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\BMI Calulator.genruntimeconfig.cache
+C:\Users\berry\Desktop\Repo\C#\SD1_App\obj\Debug\net6.0\ref\BMI Calulator.dll
