@@ -16,7 +16,7 @@ Student Requirements:
 
 6. write to a .csv file
 
-7. visualize data in that .csv file
+7. visualize data (in .csv file)
 
 *****  so far the app has all requirements except:
 1, 6, and 7.
