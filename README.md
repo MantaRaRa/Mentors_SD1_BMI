@@ -18,5 +18,5 @@ Student Requirements:
 
 7. visualize data in that .csv file
 
-so far the app has all requirements except:
+*****  so far the app has all requirements except:
 1, 6, and 7.
