@@ -8,7 +8,7 @@ Student Requirements:
 
 3. Exit the program
 
-4. Conversion tool. Feet to Inches
+4. Conversion tool. (Feet to Inches)
 
 5. Calculate BMI 
 
