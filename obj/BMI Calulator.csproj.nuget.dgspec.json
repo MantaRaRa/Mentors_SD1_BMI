@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berry\\Desktop\\Repo\\C#\\SD1_App\\BMI Calulator.csproj": {}
+    "C:\\Users\\vibra\\Source\\Repos\\Mentors_SD1_BMI\\BMI Calulator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berry\\Desktop\\Repo\\C#\\SD1_App\\BMI Calulator.csproj": {
+    "C:\\Users\\vibra\\Source\\Repos\\Mentors_SD1_BMI\\BMI Calulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berry\\Desktop\\Repo\\C#\\SD1_App\\BMI Calulator.csproj",
+        "projectUniqueName": "C:\\Users\\vibra\\Source\\Repos\\Mentors_SD1_BMI\\BMI Calulator.csproj",
         "projectName": "BMI Calulator",
-        "projectPath": "C:\\Users\\berry\\Desktop\\Repo\\C#\\SD1_App\\BMI Calulator.csproj",
-        "packagesPath": "C:\\Users\\berry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berry\\Desktop\\Repo\\C#\\SD1_App\\obj\\",
+        "projectPath": "C:\\Users\\vibra\\Source\\Repos\\Mentors_SD1_BMI\\BMI Calulator.csproj",
+        "packagesPath": "C:\\Users\\vibra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vibra\\Source\\Repos\\Mentors_SD1_BMI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\berry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vibra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
