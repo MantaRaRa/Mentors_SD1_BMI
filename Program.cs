@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BMI_Calulator;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,40 +12,36 @@ namespace BMICalculator
        static void Main(string[] args)
         {
             // Initialize Variables
-
-            string name, weight, str_feet, str_inches;
+            Person person= new Person();
+            
+            string weight, str_feet, str_inches;
            
-            double pounds, feet, inches, total_inches, BMI;
+            double feet, inches, BMI;
 
             // Set title of Program
-
             Console.Title = "BMI Calculator";
 
             // Welcome User
-
             Console.WriteLine("\tWelcome to the " + Console.Title + " program.");
             Console.WriteLine("I'm going to ask you a few Questions, " +
                 " than estimate your Body Mass Index.");
 
 
             // User's Name
-
-            Console.Write("\nWhat's your name?");
-            name = Console.ReadLine();
-            Console.WriteLine("\nIt's a Pleasure to meet you, " + name + ".");
+            Console.Write("\nWhat's your name? ");
+            person.Name = Console.ReadLine();
+            Console.WriteLine("\nIt's a Pleasure to meet you, " + person.Name + ".");
 
             //User's weight
-
-            Console.Write("\nHow much do you weight? (lbs)");
+            Console.Write("\nHow much do you weight? (lbs) ");
             weight = Console.ReadLine(); 
-            while (!Double.TryParse(weight, out pounds))
+            while (!Double.TryParse(weight, out person.Weight))
             {
                 Console.Write("Please enter your weight as a number ");
                 weight = Console.ReadLine();
             }
 
             //User's height in feet
-
             Console.WriteLine("\nHow tall are you? (feet)");
             Console.Write("Feet: ");
             str_feet = Console.ReadLine();
@@ -56,7 +53,6 @@ namespace BMICalculator
 
 
             //User's height in inches
-
             Console.WriteLine("\nHow tall are you? (inches)");
             Console.Write("Inches: ");
             str_inches = Console.ReadLine();
@@ -66,39 +62,29 @@ namespace BMICalculator
                 str_inches = Console.ReadLine();
             }
 
-            //Calculate BMI
-            //Calculate total inches
+            person.AddHeight(feet, inches);
 
-            total_inches = feet * 12 + inches;
+            BMI = person.CalculateBMI();
 
-            //BMI = (Weight in pounds / (Height in inches x Height in inches )) x 703
-            //PEMDAS
-
-            BMI = (pounds / Math.Pow(total_inches, 2)) * 703;
-            BMI = Math.Round(BMI, 2);
+            Console.WriteLine($"{person.Name} you said you are {person.Weight} pounds and {feet} feet {inches} inches tall. That converts to a total height in inches of {person.Height} inches. This means your BMI is {BMI}.");
 
             if (BMI < 18.5) 
-            Console.WriteLine("Your BMI is " + BMI + "  " + name + " Your considered Underweight, Please contact your Health Provider");
+            Console.WriteLine("A BMI of " + BMI + " is considered underweight. Please contact your Health Provider");
 
             if (BMI >= 18.5 & BMI < 25)
-            Console.WriteLine("Your BMI is " + BMI + "  " + name + " Your considered Normal");
+            Console.WriteLine("A BMI of " + BMI + " is considered normal");
 
             if (BMI >= 25 & BMI < 30)
-            Console.WriteLine("Your BMI is " + BMI + "  " + name + " Your considered Overweight, Please contact your Health Provider");
+            Console.WriteLine("A BMI of " + BMI + " is considered overweight. Please contact your Health Provider");
 
             if (BMI >= 30)
-            Console.WriteLine("Your BMI is " + BMI + "  " + name + " Your considered Obese, Please contact your Health Provider");
+            Console.WriteLine("A BMI of " + BMI + " is considered obese. Please contact your Health Provider");
 
 
             //Exit
-
-            Console.Write("\nPress enter to quit.");
+            Console.WriteLine("\nPress enter to quit.");
             Console.Read();
-
-
         }
-
-
     }
 }
 
